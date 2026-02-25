@@ -15,6 +15,14 @@ El objetivo del proyecto es simular el trabajo real de un **Data Analyst en una 
 Este repositorio está estructurado como lo estaría un proyecto real en entorno profesional.
 
 ---
+## 🔗 Quick Links
+- 📘 Data Dictionary: `data_dictionary.md`
+- 🧪 QA Tests: `SQL/07_tests.sql`
+- 📈 Business Metrics: `SQL/04_metrics.sql`
+- 👥 Cohorts & Retention: `SQL/05_cohorts_retention.sql`
+- 💎 RFM + LTV: `SQL/06_rfm_ltv.sql`
+
+---
 
 ## 🎯 Objetivo del Proyecto
 
