@@ -90,6 +90,39 @@ Contiene métricas y segmentaciones listas para consumo de negocio.
 
 ---
 
+## 📦 Estructura del Repositorio
+
+```text
+SQL/
+│
+├── 01_staging.sql
+├── 02_cleaning.sql
+├── 03_modeling.sql
+├── 04_metrics.sql
+├── 05_cohorts_retention.sql
+├── 06_rfm_ltv.sql
+└── 07_tests.sql
+```
+
+## 🔁 Reproducibilidad
+
+Para ejecutar el proyecto desde cero:
+
+1. Crear base de datos en PostgreSQL.
+2. Ejecutar 01_staging.sql.
+3. Importar los CSV del dataset Olist en schema staging.
+4. Ejecutar secuencialmente los archivos del 02 al 07.
+
+El proyecto es completamente reproducible y modular.
+
+## 📈 Principales Insights Obtenidos
+
+- El revenue real debe analizarse sobre pedidos delivered.
+- Existen inconsistencias temporales que deben tratarse mediante flags, no eliminación.
+- La retención cae significativamente después de los primeros meses.
+- El segmento "At Risk" concentra un volumen histórico de revenue relevante.
+- La distribución de categorías muestra concentración en pocas verticales dominantes.
+
 ## 🔍 Fases del Proyecto
 
 ### 01 - Staging
@@ -139,41 +172,6 @@ Contiene métricas y segmentaciones listas para consumo de negocio.
 - Checks de scoring
 - Reconciliación revenue analytics vs core
 
----
-
-## 📈 Principales Insights Obtenidos
-
-- El revenue real debe analizarse sobre pedidos delivered.
-- Existen inconsistencias temporales que deben tratarse mediante flags, no eliminación.
-- La retención cae significativamente después de los primeros meses.
-- El segmento "At Risk" concentra un volumen histórico de revenue relevante.
-- La distribución de categorías muestra concentración en pocas verticales dominantes.
-
-
-## 📦 Estructura del Repositorio
-
-```text
-SQL/
-│
-├── 01_staging.sql
-├── 02_cleaning.sql
-├── 03_modeling.sql
-├── 04_metrics.sql
-├── 05_cohorts_retention.sql
-├── 06_rfm_ltv.sql
-└── 07_tests.sql
-```
-
-## 🔁 Reproducibilidad
-
-Para ejecutar el proyecto desde cero:
-
-1. Crear base de datos en PostgreSQL.
-2. Ejecutar 01_staging.sql.
-3. Importar los CSV del dataset Olist en schema staging.
-4. Ejecutar secuencialmente los archivos del 02 al 07.
-
-El proyecto es completamente reproducible y modular.
 
 ---
 
