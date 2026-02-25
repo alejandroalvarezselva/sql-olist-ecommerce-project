@@ -153,6 +153,7 @@ Contiene métricas y segmentaciones listas para consumo de negocio.
 
 ## 📦 Estructura del Repositorio
 
+```text
 SQL/
 │
 ├── 01_staging.sql
@@ -162,6 +163,7 @@ SQL/
 ├── 05_cohorts_retention.sql
 ├── 06_rfm_ltv.sql
 └── 07_tests.sql
+
 
 ---
 
