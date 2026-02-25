@@ -162,7 +162,7 @@ SQL/
 ├── 05_cohorts_retention.sql
 ├── 06_rfm_ltv.sql
 └── 07_tests.sql
-
+```
 
 ## 🔁 Reproducibilidad
 
