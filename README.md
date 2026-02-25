@@ -149,7 +149,6 @@ Contiene métricas y segmentaciones listas para consumo de negocio.
 - El segmento "At Risk" concentra un volumen histórico de revenue relevante.
 - La distribución de categorías muestra concentración en pocas verticales dominantes.
 
----
 
 ## 📦 Estructura del Repositorio
 
@@ -164,8 +163,6 @@ SQL/
 ├── 06_rfm_ltv.sql
 └── 07_tests.sql
 
-
----
 
 ## 🔁 Reproducibilidad
 
