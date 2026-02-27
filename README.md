@@ -202,7 +202,7 @@ Incluye información sobre:
 Este proyecto incluye un análisis orientado a negocio simulando el trabajo de un Data Analyst en un e-commerce real.
 A partir del comportamiento de clientes, ticket medio y segmentación, se elaboraron conclusiones y recomendaciones accionables enfocadas a mejorar la retención de clientes y el revenue.
 
-📄 Descargar informe: Informe de análisis de negocio
+📄 Descargar informe: [Informe de análisis de negocio](docs/informe_analisis_olist.docx)
 
 ---
 
