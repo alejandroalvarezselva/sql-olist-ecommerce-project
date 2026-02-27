@@ -197,6 +197,13 @@ Incluye información sobre:
 - Geolocalización
 
 ---
+🧠 Análisis de Negocio (Business Case)
+
+Este proyecto incluye un análisis orientado a negocio simulando el trabajo de un Data Analyst en un e-commerce real.
+A partir del comportamiento de clientes, ticket medio y segmentación, se elaboraron conclusiones y recomendaciones accionables enfocadas a mejorar la retención de clientes y el revenue.
+
+Puedes descargar el informe completo aquí:
+[Informe de análisis de negocio](docs/Informe Analisis Ecommerce Olist.docx)
 
 ## 👤 Autor
 
